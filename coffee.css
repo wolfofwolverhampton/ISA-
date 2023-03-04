@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    background-repeat: no-repeat;
+    
+}
+body{
+    background-image: url(https://images.pexels.com/photos/773958/pexels-photo-773958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+}
+#header1{
+    color: white;
+    margin-left: 40%;
+    margin-right: 0%;
+    margin-top: 3%;
+    font-size: xx-large;
+    display: inline-block;
+    padding:  1px 3px 1px;
+    background: rgb(82, 37, 37);
+    border-radius: 15px;
+}
+.para{
+    display: inline-block;
+    border-radius: 15px;
+    background-color:rgb(82, 37, 37);
+    margin-left: 5%;
+    margin-right: 78%;
+    margin-top: 6%;
+    color: antiquewhite;
+    font-size: 23px;
+    padding: 0.5%;
+}
+.why{
+    font-size: 18.2px;
+    display: inline-block;
+    padding:  1px 3px 1px;
+    background: rgb(82, 37, 37);
+    border-radius: 15px;
+    color: white;
+    margin-top: -5%;
+    margin-right: 40%;
+    margin-left: 30%;
+    margin-bottom: 0%;
+
+}
+.why span{
+    color: rgb(158, 149, 28);
+}
+
+.grid-container img{
+    width: 200px;
+    height: 175px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+.grid-container{
+    display: grid;
+    margin-left: 70%;
+    margin-top: -6%;
+    margin-bottom: 0%;
+    grid-template-columns: 220px 107px;
+    grid-template-rows: 185px 93px;
+    
+}
+#for{
+    color: aliceblue;
+    background-color: rgb(101, 51, 51);
+    border-radius: 5px;
+    font-size: large;
+    margin-left: 40%;
+    margin-right: 50%;
+    text-decoration: none;
+    display: inline-block;
+    position:absolute;
+    left: 3%;
+    right: 0%;
+    top: 24%;
+    bottom: 55%;
+    font-size: 25px;
+}
+
+#for a:hover{
+color: rgb(74, 130, 179);
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(232, 210, 210);
+    font-weight: bold;
+}

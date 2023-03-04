@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    
+    background-repeat: no-repeat;
+    
+}
+body{
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 2050px;
+}
+.heading{
+    font-family: 'La Bella Aurore', cursive;
+    display: inline-block;
+    background-color: brown;
+    color: antiquewhite;
+    margin-left: 20%;
+    font-size: 30px;
+    margin-top: 5%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 0.3%;
+
+
+}
+.menu1 img{
+    height:620px;
+    width: 600px;
+    padding: 1%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+}
+.menu1{
+    margin-left: 10%;
+    margin-right: 0%;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: bisque;
+    font-weight: bold;
+}
+.icon{
+    text-decoration: none;
+    display: inline-block;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 6px;
+    margin-left: 6%;
+    padding: 5px;
+    
+}
+
+.icon a:hover{
+    color: aqua;
+}
+.contact{
+    background-color: brown;
+    display: inline-block;
+    padding: 5px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 16px;
+    margin-left: 1%;
+}
+
+.contact a:hover{
+    color: rgb(112, 65, 92);
+}
